@@ -28,9 +28,7 @@ import org.testng.Assert;
 	    String email = Excelutility.getCellData(0, 1);
 	    String number = Excelutility.getCellData(0, 2);
 	    
-	    //String emailaddress=Excelutility.getCellData(0,2);
-	    //String password =Excelutility.getCellData(0,3);
-	    //String address= Excelutility.getCellData(0,4);
+	    
 	    objLogin.name_Field(name);
 	    Thread.sleep(5000);
 	    objLogin.email_Field(email);
