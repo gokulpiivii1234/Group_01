@@ -27,7 +27,7 @@ import org.testng.Assert;
 	    String name = Excelutility.getCellData(0, 0);
 	    String email = Excelutility.getCellData(0, 1);
 	    String number = Excelutility.getCellData(0, 2);
-	    //String mobilenumber =Excelutility.getCellData(0,1);
+	    
 	    //String emailaddress=Excelutility.getCellData(0,2);
 	    //String password =Excelutility.getCellData(0,3);
 	    //String address= Excelutility.getCellData(0,4);
