@@ -37,12 +37,6 @@ import org.testng.Assert;
 	    Thread.sleep(5000);
 	    driver.switchTo( ).alert( ).accept();
 	    Thread.sleep(5000);
-	    //objLogin.setmobilenumber(mobilenumber);
-	    //objLogin.setEmailAddress(emailaddress);
-	    //objLogin.setpassword(password);
-	    
-	    //objLogin.setaddress();
-	    //objLogin.submitButton();
 	    String expectedTitle =AutomationConstants.HOMEPAGETITLE;
 	    String actualTitle =driver.getTitle();
 	    Assert.assertEquals(expectedTitle,actualTitle);
